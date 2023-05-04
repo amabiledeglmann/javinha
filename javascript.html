@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Digite seu nome:
+    <input type="text" id="nome">
+    <button class="BT" onclick="Confirmar();"> 
+       <img src="top.png" width="28px">
+       <br>
+       Top 
+    </button>
+    <button class="BT" onclick="MostrarJanela();"> 
+       <img src="cadastrar.png" width="28px">
+       <br>
+       Cadastra ai
+    </button>
+    <button class="BT" onclick="Somar();"> 
+       <img src="sinal+.png" width="28px">
+       <br>
+       Soma ai 
+    </button>
+    
+
+    <br><br>
+    RESULTADO: <input type="text" id="resultado">
+
+    <div id="resposta">
+        Você digitou:
+        <span id="teste"> </span>
+    </div>
+
+    <div class="janelinha" id="janelinha">
+        Este texto está dentro da div janelinha.
+        <br>
+        <img onclick="Fechar();" src="x-png.webp" width="30px">
+    </div>
+
+    <br> <br>
+
+    <div class="D1"> ESTE É O TEXTO 1 </div>
+    <div class="D2"> ESTE É O TEXTO 2 </div>
+    <div class="D3"> ESTE É O TEXTO 3 </div>
+
+    <br> <br>
+
+    <button class="BT" onclick="Imprimir();">
+        <img src="impressora.png" width="50px">
+        <br>
+        Imprimir
+    </button>
+
+</body>
+<script src="script.js"> </script>
+</html>
